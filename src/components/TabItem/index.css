@@ -2,9 +2,10 @@
   background: transparent;
   outline: none;
   border-width: 0;
-  color: #7b8794;
+  color: #fff;
   font-size: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 .tab-item {
   list-style-type: none;
@@ -17,6 +18,9 @@
   text-align: center;
 }
 
+.active-tab .tab-btn {
+  color: #2563eb;
+}
 @media screen and (min-width: 768px) {
   .tab-btn {
     font-size: 20px;
