@@ -1,5 +1,5 @@
 .app-container {
-  background-image: linear-gradient(to top, #c2e59c, #64b3f4);
+  background-image: linear-gradient(to bottom, #fff1eb,#ace0f9);
   min-height: 100vh;
   display: flex;
   justify-content: center;
