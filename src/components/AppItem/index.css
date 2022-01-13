@@ -1,0 +1,40 @@
+.app-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+.app-image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #1e293b;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .app-card {
+    width: 180px;
+    height: 190px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .app-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 18px;
+  }
+  .app-name {
+    font-size: 24px;
+  }
+}
